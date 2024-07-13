@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Gavin\Documents\WwiseProjects\MikuSoundBank\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Gavin\Documents\WwiseProjects\MikuSoundBank\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Gavin\Documents\WwiseProjects\MikuSoundBank\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Gavin\Documents\WwiseProjects\MikuSoundBank\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="234871081" Language="SFX" Hash="367126856">
+			<ObjectPath>\SoundBanks\Default Work Unit\mikubank_01</ObjectPath>
+			<ShortName>mikubank_01</ShortName>
+			<Path>mikubank_01.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="799128397" Language="SFX" Hash="229074183">
+			<ObjectPath>\SoundBanks\Default Work Unit\mikubank</ObjectPath>
+			<ShortName>mikubank</ShortName>
+			<Path>mikubank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4286446090" Name="mikuroll" ObjectPath="\Events\Default Work Unit\mikuroll">
+					<IncludedMemoryFiles>
+						<File Id="103509075" Language="SFX">
+							<ShortName>mikuroll.wav</ShortName>
+							<Path>SFX\mikuroll_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1028693388" Name="mikuroll2" ObjectPath="\Events\Default Work Unit\mikuroll2">
+					<IncludedMemoryFiles>
+						<File Id="258771204" Language="SFX">
+							<ShortName>mikuroll2.wav</ShortName>
+							<Path>SFX\mikuroll2_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1028693389" Name="mikuroll3" ObjectPath="\Events\Default Work Unit\mikuroll3">
+					<IncludedMemoryFiles>
+						<File Id="551997607" Language="SFX">
+							<ShortName>mikuroll3.wav</ShortName>
+							<Path>SFX\mikuroll3_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3516483190" Name="mikushout" ObjectPath="\Events\Default Work Unit\mikushout">
+					<IncludedMemoryFiles>
+						<File Id="324119685" Language="SFX">
+							<ShortName>mikushout.wav</ShortName>
+							<Path>SFX\mikushout_05842A19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1799594306">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

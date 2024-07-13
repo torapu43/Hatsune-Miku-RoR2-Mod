@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{612CA183-8CD7-405A-B8B7-923D47054278}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{612CA183-8CD7-405A-B8B7-923D47054278}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="mikubank" ID="{E52EEB3A-0A61-4B6D-9BDE-BCBC86F4456A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="mikuroll" ID="{E15F5ABA-9A2E-4565-8FBA-83D80E1893DD}" WorkUnitID="{59F35E28-AA01-4DEA-B850-8B5630645A15}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="mikuroll2" ID="{19BE1D30-2DEA-4A0E-82ED-D4445776F1AB}" WorkUnitID="{59F35E28-AA01-4DEA-B850-8B5630645A15}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="mikushout" ID="{49C1796E-AD62-4A82-A19A-23033F36289D}" WorkUnitID="{59F35E28-AA01-4DEA-B850-8B5630645A15}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="mikuroll3" ID="{F04165F3-4EED-4E82-9E03-F6B56D2378BE}" WorkUnitID="{59F35E28-AA01-4DEA-B850-8B5630645A15}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="mikubank_01" ID="{7E389DD3-4305-493C-9A70-8BEC935D95E9}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

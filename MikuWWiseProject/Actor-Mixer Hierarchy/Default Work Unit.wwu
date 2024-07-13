@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B9AC872F-D5BE-4F08-9F9D-9C73DD6F4F34}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B9AC872F-D5BE-4F08-9F9D-9C73DD6F4F34}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="SFX_Mixer" ID="{BE7F6CC1-CEC7-4899-8FDC-00DEE2D38D31}" ShortID="974397051">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{491343EB-F3F4-4C03-AB67-86EEC4F29006}" ShortID="72087269">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Volume_SFX" ID="{B4C8176D-D87D-4D71-B0D7-69BFACD577A7}" WorkUnitID="{582EEA7D-BA43-4952-911E-97FEBF12BCCF}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D256DBB6-E1ED-4BB5-A1C9-9B311FEB5D39}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="migku" ID="{CD36213D-AC00-4348-AA64-E7B19CDD9163}" WorkUnitID="{15852358-3054-42D7-B014-81F7D17AF082}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27BC3479-595A-404A-B2C1-7281F5DD7A3F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{500F03D2-9250-4B70-8D82-04D8EDCB8E94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="mikushout" ID="{D3A0C1D8-865A-4D47-B089-0EADD9170BEB}" ShortID="851896265">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27BC3479-595A-404A-B2C1-7281F5DD7A3F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{500F03D2-9250-4B70-8D82-04D8EDCB8E94}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mikushout" ID="{84B353B2-1818-4631-A405-CCE8DF0F25A4}">
+									<Language>SFX</Language>
+									<AudioFile>mikushout.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="324119685"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="mikuroll" ID="{E7FEE658-CEE5-48F8-8A82-0C6CDA9AA8F7}">
+									<Language>SFX</Language>
+									<AudioFile>mikuroll.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="103509075"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mikushout" ID="{84B353B2-1818-4631-A405-CCE8DF0F25A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mikuroll" ID="{EE4186C9-0915-45AF-9058-33D061697239}" ShortID="415833754">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27BC3479-595A-404A-B2C1-7281F5DD7A3F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{500F03D2-9250-4B70-8D82-04D8EDCB8E94}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mikuroll" ID="{8E387EFB-7E59-4584-81C5-CFA4AE4E475D}">
+									<Language>SFX</Language>
+									<AudioFile>mikuroll.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="103509075"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mikuroll" ID="{8E387EFB-7E59-4584-81C5-CFA4AE4E475D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mikuroll2" ID="{95B00206-78D1-4E46-A806-6241931DBCDA}" ShortID="467993965">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27BC3479-595A-404A-B2C1-7281F5DD7A3F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{500F03D2-9250-4B70-8D82-04D8EDCB8E94}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mikuroll2" ID="{76C6C665-8B24-4ED7-9EC2-D439310BF008}">
+									<Language>SFX</Language>
+									<AudioFile>mikuroll2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="258771204"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mikuroll2" ID="{76C6C665-8B24-4ED7-9EC2-D439310BF008}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mikuroll3" ID="{873CE6F0-7A67-4666-88D0-2C08E32EE57A}" ShortID="235523542">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27BC3479-595A-404A-B2C1-7281F5DD7A3F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{500F03D2-9250-4B70-8D82-04D8EDCB8E94}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mikuroll3" ID="{B0CABDAE-9A5C-41BC-B426-B9B5FC7524F3}">
+									<Language>SFX</Language>
+									<AudioFile>mikuroll3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="551997607"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mikuroll3" ID="{B0CABDAE-9A5C-41BC-B426-B9B5FC7524F3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{59F35E28-AA01-4DEA-B850-8B5630645A15}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{59F35E28-AA01-4DEA-B850-8B5630645A15}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="mikushout" ID="{49C1796E-AD62-4A82-A19A-23033F36289D}">
+					<ChildrenList>
+						<Action Name="" ID="{224F68AC-174E-49DC-A345-53D3044DF454}" ShortID="627227763">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mikushout" ID="{D3A0C1D8-865A-4D47-B089-0EADD9170BEB}" WorkUnitID="{B9AC872F-D5BE-4F08-9F9D-9C73DD6F4F34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mikuroll" ID="{E15F5ABA-9A2E-4565-8FBA-83D80E1893DD}">
+					<ChildrenList>
+						<Action Name="" ID="{429F5011-FFBB-4044-A73B-B70ADAAC00DB}" ShortID="897376767">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mikuroll" ID="{EE4186C9-0915-45AF-9058-33D061697239}" WorkUnitID="{B9AC872F-D5BE-4F08-9F9D-9C73DD6F4F34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mikuroll2" ID="{19BE1D30-2DEA-4A0E-82ED-D4445776F1AB}">
+					<ChildrenList>
+						<Action Name="" ID="{E925DC62-0B35-4D92-A8BC-A1C95FF09F85}" ShortID="455714549">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mikuroll2" ID="{95B00206-78D1-4E46-A806-6241931DBCDA}" WorkUnitID="{B9AC872F-D5BE-4F08-9F9D-9C73DD6F4F34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mikuroll3" ID="{F04165F3-4EED-4E82-9E03-F6B56D2378BE}">
+					<ChildrenList>
+						<Action Name="" ID="{829BE237-841C-4A56-BCF8-A951523817A0}" ShortID="64645078">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mikuroll3" ID="{873CE6F0-7A67-4666-88D0-2C08E32EE57A}" WorkUnitID="{B9AC872F-D5BE-4F08-9F9D-9C73DD6F4F34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
