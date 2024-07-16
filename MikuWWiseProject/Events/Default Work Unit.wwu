@@ -47,6 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="mikudeathsound" ID="{A9583DC4-F109-477B-B997-3E4A8DC70D55}">
+					<ChildrenList>
+						<Action Name="" ID="{BE361C53-24D9-42FF-A9C8-F90E7010E19C}" ShortID="1065986038">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mikudeathsound" ID="{80C1AC64-5D29-4630-9D52-D492B173BFF0}" WorkUnitID="{B9AC872F-D5BE-4F08-9F9D-9C73DD6F4F34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

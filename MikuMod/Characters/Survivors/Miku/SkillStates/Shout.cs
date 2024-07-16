@@ -3,6 +3,7 @@ using IL.RoR2.Mecanim;
 using MikuMod.Survivors.Miku;
 using RoR2;
 using RoR2.Projectile;
+using System;
 using UnityEngine;
 
 namespace MikuMod.Survivors.Miku.SkillStates
@@ -22,8 +23,8 @@ namespace MikuMod.Survivors.Miku.SkillStates
             base.OnEnter();
             Util.PlaySound("mikushout", gameObject);
             Chat.AddMessage("SEKAAAAAAAAAAAAAAAI DE");
-            
-            EffectManager.SimpleEffect(MikuAssets.shoutEffect,characterBody.get_corePosition())
+            var aimRay = GetAimRay();
+            EffectManager.SimpleEffect(MikuAssets.shoutEffect, aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction), false);
             characterBody.AddTimedBuff(MikuBuffs.popularity, 10f);
         }
 

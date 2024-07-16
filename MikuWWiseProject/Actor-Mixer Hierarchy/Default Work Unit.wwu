@@ -149,6 +149,28 @@
 								<ActiveSource Name="mikuroll3" ID="{B0CABDAE-9A5C-41BC-B426-B9B5FC7524F3}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="mikudeathsound" ID="{80C1AC64-5D29-4630-9D52-D492B173BFF0}" ShortID="415989592">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27BC3479-595A-404A-B2C1-7281F5DD7A3F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{500F03D2-9250-4B70-8D82-04D8EDCB8E94}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mikudeathsound" ID="{0523F2C4-1B5C-495B-BC63-6ED693C420B8}">
+									<Language>SFX</Language>
+									<AudioFile>mikudeathsound.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="871940627"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mikudeathsound" ID="{0523F2C4-1B5C-495B-BC63-6ED693C420B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

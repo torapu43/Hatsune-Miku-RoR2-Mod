@@ -26,8 +26,8 @@ namespace MikuMod.Survivors.Miku
              + "< ! > Roll has a lingering armor buff that helps to use it aggressively." + Environment.NewLine + Environment.NewLine
              + "< ! > Shout has different helpful effects based on which song is chosen" + Environment.NewLine + Environment.NewLine;
 
-            string outro = "..and so he left, searching for a new identity.";
-            string outroFailure = "..and so he vanished, forever a blank slate.";
+            string outro = "..and so she left, her voice having reached the stars.";
+            string outroFailure = "..and so she vanished, always an imitation of humanity.";
 
             Language.Add(prefix + "NAME", "Hatsune Miku");
             Language.Add(prefix + "DESCRIPTION", desc);

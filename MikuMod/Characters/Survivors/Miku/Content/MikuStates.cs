@@ -1,4 +1,7 @@
-﻿using MikuMod.Survivors.Miku.SkillStates;
+﻿using EntityStates;
+using IL.RoR2;
+using RoR2;
+using MikuMod.Survivors.Miku.SkillStates;
 
 namespace MikuMod.Survivors.Miku
 {
@@ -13,6 +16,18 @@ namespace MikuMod.Survivors.Miku
             Modules.Content.AddEntityState(typeof(Roll));
 
             Modules.Content.AddEntityState(typeof(Shout));
+
+            Modules.Content.AddEntityState(typeof(MikuDeathState));
+        }
+    }
+
+    public class MikuDeathState : GenericCharacterDeath
+    {
+        public override void OnEnter()
+        {
+            base.OnEnter();
+
+            RoR2.Util.PlaySound("mikudeathsound", gameObject);
         }
     }
 }

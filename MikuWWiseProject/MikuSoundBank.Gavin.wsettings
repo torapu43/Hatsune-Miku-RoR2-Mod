@@ -3,9 +3,10 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{6FCB5D46-3EAB-4819-9593-C473331F44BE}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Gavin\Documents\WwiseProjects\MikuSoundBank\Originals\SFX\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Gavin\Documents\Hatsune-Miku-RoR2-Mod\MikuWWiseProject\Originals\SFX\"/>
 				<Property Name="Event Action List\{19BE1D30-2DEA-4A0E-82ED-D4445776F1AB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{49C1796E-AD62-4A82-A19A-23033F36289D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A9583DC4-F109-477B-B997-3E4A8DC70D55}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E15F5ABA-9A2E-4565-8FBA-83D80E1893DD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{ED11FDCF-EFEB-4D86-8402-56486AFBA426}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F04165F3-4EED-4E82-9E03-F6B56D2378BE}\x64_Expand States" Type="string" Value=""/>

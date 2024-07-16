@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	116755076	mikudeathsound			\Default Work Unit\mikudeathsound	
 	1028693388	mikuroll2			\Default Work Unit\mikuroll2	
 	1028693389	mikuroll3			\Default Work Unit\mikuroll3	
 	3516483190	mikushout			\Default Work Unit\mikushout	
@@ -8,8 +9,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	103509075	mikuroll	C:\Users\Gavin\Documents\WwiseProjects\MikuSoundBank\.cache\Windows\SFX\mikuroll_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\mikuroll		32175
-	258771204	mikuroll2	C:\Users\Gavin\Documents\WwiseProjects\MikuSoundBank\.cache\Windows\SFX\mikuroll2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\mikuroll2		16786
-	324119685	mikushout	C:\Users\Gavin\Documents\WwiseProjects\MikuSoundBank\.cache\Windows\SFX\mikushout_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\mikushout		22037
-	551997607	mikuroll3	C:\Users\Gavin\Documents\WwiseProjects\MikuSoundBank\.cache\Windows\SFX\mikuroll3_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\mikuroll3		16358
+	103509075	mikuroll	C:\Users\Gavin\Documents\Hatsune-Miku-RoR2-Mod\MikuWWiseProject\.cache\Windows\SFX\mikuroll_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\mikuroll		32175
+	258771204	mikuroll2	C:\Users\Gavin\Documents\Hatsune-Miku-RoR2-Mod\MikuWWiseProject\.cache\Windows\SFX\mikuroll2_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\mikuroll2		16786
+	324119685	mikushout	C:\Users\Gavin\Documents\Hatsune-Miku-RoR2-Mod\MikuWWiseProject\.cache\Windows\SFX\mikushout_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\mikushout		22037
+	551997607	mikuroll3	C:\Users\Gavin\Documents\Hatsune-Miku-RoR2-Mod\MikuWWiseProject\.cache\Windows\SFX\mikuroll3_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\mikuroll3		16358
+	871940627	mikudeathsound	C:\Users\Gavin\Documents\Hatsune-Miku-RoR2-Mod\MikuWWiseProject\.cache\Windows\SFX\mikudeathsound_05842A19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\mikudeathsound		17699
 

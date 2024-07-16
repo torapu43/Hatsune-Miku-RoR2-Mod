@@ -6,7 +6,7 @@ namespace MikuMod.Survivors.Miku
     {
         public const float swordDamageCoefficient = 2.8f;
 
-        public const float leekDamageCoefficient = 3f;
+        public const float leekDamageCoefficient = 2.5f;
 
         public const float gunDamageCoefficient = 4.2f;
 

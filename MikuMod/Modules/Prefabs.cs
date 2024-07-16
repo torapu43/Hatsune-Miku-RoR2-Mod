@@ -691,6 +691,7 @@ namespace MikuMod.Modules
                 Log.Message($"An Entity State Machine already exists with the name {machineName}. replacing.");
             }
 
+
             entityStateMachine.customName = machineName;
 
             if (mainStateType == null)
